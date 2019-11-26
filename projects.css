@@ -1,0 +1,60 @@
+
+.maindiv
+{
+    background-color: #282C34;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.banner
+{
+    position: absolute;
+    left:8px;
+    top: 8px;
+    width: 681px;
+    height: 42px;
+    background-image: url("banner.png");
+}
+
+.console
+{
+    position:absolute;
+    left: 16px;
+    right: 16px;
+    top: 58px;
+    bottom: 16px;
+    overflow:auto;
+    background-color:#000000;
+    color:#ffffff;
+    font-family: monospace;
+    padding:4px;
+}
+
+
+.linkpanel
+{
+    cursor: pointer;
+    cursor: hand;
+    color:#ffffff;
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    height: 42px;
+    line-height: 42px;
+}
+
+
+A:link {text-decoration: none; color:#FFFFFF; outline : none; border : 0;}
+A:visited {text-decoration: none; color:#FFFFFF; outline : none; border : 0;}
+A:active {text-decoration: none; color:#FFFFFF; outline : none; border : 0;}
+A:hover {text-decoration: underline; color:#FFFFFF; outline : none; border : 0;}
+
+
+.roundcorners
+{
+	border:2px solid #404040;
+    border-radius: 4px 4px 4px 4px;
+}
